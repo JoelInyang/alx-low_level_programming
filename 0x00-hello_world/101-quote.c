@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 #include <unistd.h>
 
 /**
@@ -9,7 +9,7 @@ int main(void)
 {
 	char var[] = "and that piece of art is useful\" - Dora, 2015-10-19\n";
 
-	write(2, var, sizeof(var) - 1);
+	write(var, sizeof(var) - 1);
 
 	return (1);
 }
