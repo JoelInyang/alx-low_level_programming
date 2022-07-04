@@ -26,11 +26,11 @@ int main(void)
 				nLast = n % 10;
 
 					if (n > 5)
-						printf("Last digit of %d is %d and is greater than 5\n", n, nLast);
+						printf("Last digit of %d is %d and is greater than 5\n", n,);
 					else if (n == 0)
 						printf("Last digit of %d is %d and is 0\n", n, nLast);
 					else
-						printf("Last digit of %d is %d and is less than 6 and not 0\n", n, nLast);
+						printf("Last digit of %d is %d and is less than 6  not 0\n", n, nLast);
 
 					return (0);
 
