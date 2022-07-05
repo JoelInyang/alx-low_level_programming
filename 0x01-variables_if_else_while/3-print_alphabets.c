@@ -1,4 +1,3 @@
-#!/bin/bash
 #include <stdio.h>
 
 #include <stdlib.h>
@@ -9,17 +8,19 @@
  */
 int main(void)
 {
-	char var;
-	char var1;
+	char alphabet;
 
-	for (var = 'a'; var <= 'z'; var++)
-	{
-	putchar var;
-	}
-	for (var1 = 'A'; var1 <= 'Z'; var1++)
-	{
-	putchar var1;
-	}
-	putchar('\n');
-	return (0);
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+
+	putchar(alphabet);
 }
+	putchar('\n');
+
+{
+	char ALPHABET;
+
+	for (ALPHABET = 'A'; ALPHABET <= 'Z'; ALPHABET++)
+
+	putchar(ALPHABET);
+
+}	return (0);
