@@ -1,23 +1,37 @@
-int _putchar(char c);
+#include "main.h"
 
-void print_alphabet(void);
+/**
+ *
+ *  * main - Entry point
+ *
+ *   *
+ *
+ *    * Return: nothing, return void
+ *
+ *     */
 
-void print_alphabet_x10(void);
+int main(void)
 
-int _islower(int c);
+{
 
-int _isalpha(int c);
+	_putchar('_');
 
-int print_sign(int n);
+	_putchar('p');
 
-int _abs(int);
+	_putchar('u');
 
-int print_last_digit(int);
+	_putchar('t');
 
-void jack_bauer(void);
+	_putchar('c');
 
-void times_table(void);
+	_putchar('h');
 
-int add(int, int);
+	_putchar('a');
 
-void print_to_98(int n);
+	_putchar('r');
+
+	_putchar('\n');
+
+	return (0);
+
+}
