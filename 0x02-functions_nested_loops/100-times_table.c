@@ -29,7 +29,7 @@ void print_times_table(int n)
 		{
 			_putchar(' ');
 			_putchar('0' + rep / 10);
-			-putchar('0' + rep % 10);
+			_putchar('0' + rep % 10);
 		}
 		else
 		{
@@ -39,7 +39,7 @@ void print_times_table(int n)
 		}
 		if (b < n)
 		{
-			_putchat(',');
+			_putchar(',');
 			_putchar(' ');
 		}
 	}
