@@ -6,20 +6,20 @@
  * Return: 0 if successful
  */
 int main(void)
-
-	char alphabet;
-
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
-	putchar(alphabet);
-}
+	char var;
+	char var1;
+
+	for (var = 'a'; var <= 'z'; var++)
+	{
+		putchar(var);
+	}
+
+	for (var1 = 'A'; var1 <= 'Z'; var1++;)
+	{
+		putchar(var);
+	}
+
 	putchar('\n');
-
-
-	char ALPHABET;
-
-	for (ALPHABET = 'A'; ALPHABET <= 'Z'; ALPHABET++)
-{
-	putchar(ALPHABET);
-
-}	return (0);
+	return (0);
+}
