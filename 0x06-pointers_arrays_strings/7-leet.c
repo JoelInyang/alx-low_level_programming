@@ -31,7 +31,7 @@ for (c = s; *c; ++c)
 {
 for (i = 0; i < 15; i += 3)
 {
-if (*c == map[1] || *c == map[1 + 1])
+if (*c == map[i] || *c == map[i + 1])
 *c = map[i + 2];
 }
 }
