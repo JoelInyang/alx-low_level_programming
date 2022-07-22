@@ -6,7 +6,7 @@
  * @s: the string to search
  * @char *accept: for pointer accept
  * @accept: the characters to allow in the substring
- * Return: Always 0.
+ * Return: number of bytes in the initial segment.
  */
 
 unsigned int _strspn(char *s, char *accept)
