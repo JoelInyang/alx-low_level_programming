@@ -1,14 +1,19 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- *  _puts_recursion - to recurse
- *  @s: string
- *  Return: Always 0.
+ * _puts_recursion - recursion for puts
+ * @s: string for printing
  */
+
 
 void _puts_recursion(char *s);
 {
-	puts("Joel is a great software engineer.\n");
-	return (0);
+	if (*s == '\0')
+	{
+		_putchar('\n');
+		return;
+	}
+	_putchar(s[0]);
+	s++;
+	_puts_recursion[s];
 }
