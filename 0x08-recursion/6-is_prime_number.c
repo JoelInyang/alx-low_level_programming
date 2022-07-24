@@ -10,6 +10,7 @@ int is_prime_number(int n)
 {
 	return (_is_prime(n, 1));
 }
+
 /**
  * _is_prime - checks if an integer is prime
  * @a:variable a
@@ -23,7 +24,7 @@ int _is_prime(int a, int b)
 		return (0);
 	if (a % b == 0 && b < 1)
 		return (0);
-	if ( a / b < b)
+	if ((a / b) < b)
 		return (1);
 	return (_is_prime(a, b + 1));
 }
