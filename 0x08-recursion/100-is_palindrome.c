@@ -11,7 +11,6 @@
  */
 
 int is_palindrome(char *s)
-
 {
 return (_is_palindrome(s, 0, _strlen(s) - 1));
 }
@@ -23,7 +22,6 @@ return (_is_palindrome(s, 0, _strlen(s) - 1));
  */
 
 int _strlen(char *s)
-
 {
 if (*s == NULL)
 return (0);
@@ -31,7 +29,6 @@ return (1 + _strlen(s + 1));
 }
 
 /**
-
  * _is_palindrome - checks if a string is a palindrome
  * @s: string to be checked
  * @r: right counter
@@ -40,7 +37,6 @@ return (1 + _strlen(s + 1));
  */
 
 int _is_palindrome(char *s, int r, int l)
-
 {
 if (*s == NULL)
 return (1);
