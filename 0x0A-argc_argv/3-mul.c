@@ -15,7 +15,10 @@ int main(int argc, char *argv[])
 	int first, second, product;
 
 	if (argc != 3)
-		print("Error\n");
+	{
+		printf("Error\n");
+		return (1);
+	}
 	first = atoi(argv[1]);
 	second = atoi(argv[2]);
 	product = first * second;
