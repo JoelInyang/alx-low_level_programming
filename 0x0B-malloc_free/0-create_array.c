@@ -25,7 +25,7 @@ char *create_array(unsigned int size, char c)
 	}
 	while (a < size)
 	{
-		b[a] = c
+		b[a] = c;
 		a++;
 	}
 	return (b);
