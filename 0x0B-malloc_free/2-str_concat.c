@@ -8,6 +8,7 @@
  * @s2: second string
  * Return: concated string
  */
+
 char *str_concat(char *s1, char *s2)
 {
 	int a = 0;
